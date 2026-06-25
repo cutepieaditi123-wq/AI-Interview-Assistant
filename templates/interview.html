@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Interview Round</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#667eea,#764ba2);
+}
+
+.interview-box{
+    width:90%;
+    max-width:800px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align:center;
+    color:#333;
+    margin-bottom:20px;
+}
+
+.question{
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+textarea{
+    width:100%;
+    height:180px;
+    padding:15px;
+    border:2px solid #ddd;
+    border-radius:10px;
+    resize:none;
+    font-size:16px;
+}
+
+.btn{
+    margin-top:20px;
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:#4facfe;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:#2196f3;
+}
+
+.result-card{
+    margin-top:30px;
+    padding:25px;
+    border-radius:15px;
+    background:#f5f7ff;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+}
+
+.result-card h2{
+    color:#4facfe;
+    margin-bottom:15px;
+}
+
+.result-card h3{
+    margin:10px 0;
+    color:#333;
+}
+
+#darkBtn{
+    margin:15px 0;
+    padding:10px 20px;
+    border:none;
+    border-radius:8px;
+    background:#333;
+    color:white;
+    cursor:pointer;
+}
+
+.dark{
+    background:#1a1a1a !important;
+    color:white;
+}
+
+.dark .interview-box{
+    background:#2b2b2b;
+    color:white;
+}
+
+.dark textarea{
+    background:#444;
+    color:white;
+    border:1px solid #666;
+}
+
+.dark .btn{
+    background:#0d6efd;
+}
+
+.dark #darkBtn{
+    background:white;
+    color:black;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="interview-box">
+
+<h1>🤖 AI Interview Assistant</h1>
+
+<button id="darkBtn"onclick="toggleDarkMode()">
+    Dark Mode
+</button>
+
+<div class="progress-container">
+    <div id="progress-bar"></div>
+</div>
+
+<p id="progress-text">Question 1 of 4</p>
+
+<p class="question"id="question">
+</p>
+
+<textarea id="answer" placeholder="Type your answer here..."></textarea>
+
+<button class="btn" onclick="nextQuestion()">
+Next Question
+</button>
+<p id="score"></p>
+<p id="feedback"></p>
+<p id="timer">⏰ Time Left: 60 sec</p>
+</p>
+
+<div class="circle-container">
+    <div class="circle">
+        <svg width="180" height="180">
+            <circle cx="90" 
+            cy="90" 
+            r="70" 
+            fill="none"
+            stroke="#ddd"
+            stroke-width="12">
+        </circle>
+
+            <circle 
+            id="progressCircle"
+            cx="90" 
+            cy="90" 
+            r="70" 
+            fill="none"
+            stroke="#4facfe"
+            stroke-width="12"
+            stroke-linecap="round"
+            stroke-dasharray="440"
+            stroke-dashoffset="440"
+            transform="rotate(-90 90 90)">
+        </circle>
+        </svg>
+
+        <div class="percentage" id="percentage">0%</div>
+    </div>
+
+
+    <div id="result-card" style="display:none;" class="result-card">
+
+    <h2>🎉 Interview Completed</h2>
+
+    <h3 id="final-score"></h3>
+
+    <h3 id="final-percentage"></h3>
+
+    <h3 id="final-grade"></h3>
+
+    <button class="btn" onclick="location.reload()">
+        🔄 Restart Interview
+    </button>
+
+</div>
+</div>
+</div>
+<script src="{{url_for('static',filename='interview.js')}}"></script>
+
+</body>
+</html>
