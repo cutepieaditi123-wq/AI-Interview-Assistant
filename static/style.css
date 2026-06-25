@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:1200px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:60px;
+}
+
+.left{
+    flex:1;
+    text-align:center;
+}
+
+.left h1{
+    color:white;
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:white;
+    margin-bottom:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+input,
+select{
+    width:100%;
+    padding:14px;
+    margin-bottom:15px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+}
+
+button{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#4f8dfd;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2f75f5;
+}
+
+.right{
+    flex:1;
+    color:white;
+}
+
+.right h2{
+    font-size:2rem;
+    margin-bottom:25px;
+}
+
+.feature{
+    background:rgba(255,255,255,0.15);
+    padding:15px;
+    border-radius:12px;
+    margin-bottom:15px;
+    backdrop-filter:blur(5px);
+}
+
+@media(max-width:900px){
+
+.container{
+    flex-direction:column;
+}
+
+.left h1{
+    font-size:2.2rem;
+}
+
+.right{
+    width:100%;
+}
+
+}
+
+.progress-container{
+    width:100%;
+    height:12px;
+    background:#ddd;
+    border-radius:20px;
+    margin:20px 0;
+    overflow:hidden;
+}
+
+#progress-bar{
+    width:25%;
+    height:100%;
+    background:#4facfe;
+    transition:0.4s;
+}
+
+#progress-text{
+    text-align:center;
+    margin-bottom:20px;
+    font-weight:bold;
+    color:#444;
+}
+#timer{
+    text-align:right;
+    font-size:18px;
+    font-weight:bold;
+    color:#e53935;
+    margin-bottom:15px;
+}
+
+.circle-container{
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+}
+
+.circle{
+    position:relative;
+    width:180px;
+    height:180px;
+}
+
+svg{
+    transform:rotate(-90deg);
+}
+
+.bg{
+    fill:none;
+    stroke:#ddd;
+    stroke-width:12;
+}
+
+.progress{
+    fill:none;
+    stroke:#4facfe;
+    stroke-width:12;
+    stroke-linecap:round;
+    stroke-dasharray:440;
+    stroke-dashoffset:440;
+    transition:1s;
+}
+
+.percentage{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:28px;
+    font-weight:bold;
+}
