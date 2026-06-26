@@ -11,9 +11,6 @@ def home():
 def interview():
     return render_template("interview.html")
 
-if __name__ == "__main__":
-    app.run(debug=True)
-
 def check_answer(question, answer):
     answer = answer.lower()
 
