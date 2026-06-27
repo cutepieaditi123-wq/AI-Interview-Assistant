@@ -11,238 +11,238 @@ const interviewQuestions = {
 
     python: [
         {
-            question: "Question 1: What is Python?",
+            question: " What is Python?",
             answer: "programming language"
         },
         {
-            question: "Question 2: What is List in Python?",
+            question: " What is List in Python?",
             answer: "collection"
         },
         {
-            question: "Question 3: What is Tuple?",
+            question: " What is Tuple?",
             answer: "immutable"
         },
         {
-            question: "Question 4: What is Dictionary?",
+            question: " What is Dictionary?",
             answer: "key value"
         },
 
         {
-    question: "Question 5: What is a Python decorator?",
+    question: " What is a Python decorator?",
     answer: "decorator" 
     },
             {
-            question: "Question 6: What is exception handling?",
+            question: "What is exception handling?",
             answer: "try except"
         },
 {
-    question: "Question 7: What is inheritance?",
+    question: "What is inheritance?",
     answer: "inheritance"
 },
 {
-    question: "Question 8: What is polymorphism?",
+    question: " What is polymorphism?",
     answer: "polymorphism"
 },
 {
-    question: "Question 9: What is a lambda function?",
+    question: " What is a lambda function?",
     answer: "anonymous function"
 },
 {
-    question: "Question 10: What is multithreading?",
+    question: " What is multithreading?",
     answer: "multiple threads"
 }
     ],
 
     java: [
         {
-            question: "Question 1: What is Java?",
+            question:" What is Java?",
             answer: "object oriented"
         },
         {
-            question: "Question 2: What is JVM?",
+            question: " What is JVM?",
             answer: "java virtual machine"
         },
         {
-            question: "Question 3: What is JDK?",
+            question:"What is JDK?",
             answer: "development kit"
         },
         {
-            question: "Question 4: What is Inheritance?",
+            question:"What is Inheritance?",
             answer: "inherit"
         },
 
         {
-    question: "Question 5: What is OOP in Java?",
+    question: "What is OOP in Java?",
     answer: "object oriented programming"
 },
 {
-    question: "Question 6: What is Inheritance in Java?",
+    question: "What is Inheritance in Java?",
     answer: "inheritance"
 },
 {
-    question: "Question 7: What is Polymorphism?",
+    question: "What is Polymorphism?",
     answer: "polymorphism"
 },
 {
-    question: "Question 8: What is Encapsulation?",
+    question: "What is Encapsulation?",
     answer: "encapsulation"
 },
 {
-    question: "Question 9: What is Abstraction?",
+    question: "What is Abstraction?",
     answer: "abstraction"
 },
 {
-    question: "Question 10: What is Constructor in Java?",
+    question: "What is Constructor in Java?",
     answer: "constructor"
 },
 {
-    question: "Question 11: What is Method Overloading?",
+    question: "What is Method Overloading?",
     answer: "same method different parameters"
 },
 {
-    question: "Question 12: What is Method Overriding?",
+    question: "What is Method Overriding?",
     answer: "runtime polymorphism"
 },
 {
-    question: "Question 13: What is Exception Handling in Java?",
+    question: "What is Exception Handling in Java?",
     answer: "try catch"
 },
 {
-    question: "Question 14: What is Multithreading in Java?",
+    question: "What is Multithreading in Java?",
     answer: "multiple threads"
 }
     ],
 
     web: [
         {
-            question: "Question 1: What is HTML?",
+            question: " What is HTML?",
             answer: "markup language"
         },
         {
-            question: "Question 2: What is CSS?",
+            question: " What is CSS?",
             answer: "style"
         },
         {
-            question: "Question 3: What is JavaScript?",
+            question: " What is JavaScript?",
             answer: "scripting language"
         },
         {
-            question: "Question 4: What is Bootstrap?",
+            question: " What is Bootstrap?",
             answer: "framework"
         },
       {
-    question: "Question 5: What is Responsive Web Design?",
+    question: "What is Responsive Web Design?",
     answer: "responsive"
 },
 {
-    question: "Question 6: What is the DOM?",
+    question: "What is the DOM?",
     answer: "document object model"
 },
 {
-    question: "Question 7: What is the difference between id and class in HTML?",
+    question: "What is the difference between id and class in HTML?",
     answer: "id unique class multiple"
 },
 {
-    question: "Question 8: What is Flexbox in CSS?",
+    question: "What is Flexbox in CSS?",
     answer: "flexbox"
 },
 {
-    question: "Question 9: What is the difference between let, var and const?",
+    question: "What is the difference between let, var and const?",
     answer: "let var const"
 },
 {
-    question: "Question 10: What are JavaScript events?",
+    question: " What are JavaScript events?",
     answer: "events"
 },
 {
-    question: "Question 11: What is Bootstrap?",
+    question: " What is Bootstrap?",
     answer: "css framework"
 },
 {
-    question: "Question 12: What is Media Query?",
+    question: " What is Media Query?",
     answer: "media query"
 },
 {
-    question: "Question 13: What is Local Storage?",
+    question: " What is Local Storage?",
     answer: "local storage"
 },
 {
-    question: "Question 14: What is Session Storage?",
+    question: "What is Session Storage?",
     answer: "session storage"
 },
 {
-    question: "Question 15: What is Event Bubbling?",
+    question: " What is Event Bubbling?",
     answer: "event bubbling"
 },
 {
-    question: "Question 16: What is Event Delegation?",
+    question: "What is Event Delegation?",
     answer: "event delegation"
 },
 {
-    question: "Question 17: What is the difference between GET and POST?",
+    question: "What is the difference between GET and POST?",
     answer: "get post"
 },
 {
-    question: "Question 18: What is an API?",
+    question: "What is an API?",
     answer: "application programming interface"
 },
 {
-    question: "Question 19: What is JSON?",
+    question: "What is JSON?",
     answer: "javascript object notation"
 },
 {
-    question: "Question 20: What is AJAX?",
+    question: "What is AJAX?",
     answer: "asynchronous javascript xml"
 }
     ],
 
     hr: [
         {
-            question: "Question 1: Tell me about yourself.",
+            question: "Tell me about yourself.",
             answer: ""
         },
         {
-            question: "Question 2: Why should we hire you?",
+            question: "Why should we hire you?",
             answer: ""
         },
         {
-            question: "Question 3: What are your strengths?",
+            question: "What are your strengths?",
             answer: ""
         },
         {
-            question: "Question 4: Where do you see yourself in 5 years?",
+            question: "Where do you see yourself in 5 years?",
             answer: ""
         },
         {
-    question: "Question 5: Why should we hire you?",
+    question: "Why should we hire you?",
     answer: "skills"
 },
 {
-    question: "Question 6: What are your strengths?",
+    question: " What are your strengths?",
     answer: "strength"
 },
 {
-    question: "Question 7: What are your weaknesses?",
+    question: " What are your weaknesses?",
     answer: "weakness"
 },
 {
-    question: "Question 8: Why do you want to work with our company?",
+    question: "Why do you want to work with our company?",
     answer: "company"
 },
 {
-    question: "Question 9: Where do you see yourself in 5 years?",
+    question: " Where do you see yourself in 5 years?",
     answer: "career"
 },
 {
-    question: "Question 10: What motivates you?",
+    question: "What motivates you?",
     answer: "motivation"
 },
 {
-    question: "Question 11: How do you handle stress and pressure?",
+    question: " How do you handle stress and pressure?",
     answer: "stress"
 },
 {
-    question: "Question 12: Describe a challenging situation you faced.",
+    question: " Describe a challenging situation you faced.",
     answer:"challenge"
 }
     ]
