@@ -31,5 +31,5 @@ def check_answer(question, answer):
         "feedback": "Good Attempt!"
     }
 
-if__name__=="__main__":
-app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True)
