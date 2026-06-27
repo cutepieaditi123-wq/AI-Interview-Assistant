@@ -65,6 +65,8 @@ python app.py
 ```
 http://127.0.0.1:5000
 ```
+direct link 
+https://ai-interview-assistant-1-bz0h.onrender.com
 
 ## 👩‍💻 Developer
 
